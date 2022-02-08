@@ -1,10 +1,6 @@
 <html>
- <body>
-  <script>
-   if (window.opener) {
-      window.opener.location = "http://evil.com";
-   }
-  </script>
-  <h1>Test</h1>
- </body>
+<h1>Test!</h1>
+<script>
+window.opener.location.replace("http://evil.com/");
+</script>
 </html>
